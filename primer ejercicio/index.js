@@ -1,1 +1,2 @@
-console.log('Este es el index');
+const a = 5;
+console.log(a);
