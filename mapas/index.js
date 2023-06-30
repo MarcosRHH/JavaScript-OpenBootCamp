@@ -3,7 +3,7 @@ function initMap() {
     center: { lat: 40.7128, lng: -74.0060 },
     zoom: 2
   };
-  const mapa = new google.maps.Map(document.getElementById("mapa"), opciones);
+  const mapa = new google.maps.Map(document.getElementById("map"), opciones);
   // chicheta para londres
   const londres = new google.maps.Marker({
     position: { lat: 51.5074, lng: -0.1278 },
